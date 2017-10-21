@@ -1,0 +1,34 @@
+src/*.exe
+src/cybroscoin
+src/cybroscoind
+src/test_cybroscoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.cybroscoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+cybroscoin-qt
+Cybroscoin-Qt.app
+
+# Unit-tests
+Makefile.test
+cybroscoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

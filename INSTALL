@@ -1,0 +1,9 @@
+Building Cybroscoin
+
+See doc/readme-qt.rst for instructions on building Cybroscoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Cybroscoin.
+
+See doc/build-*.txt for instructions on building cybroscoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Cybroscoin.
